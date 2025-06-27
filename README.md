@@ -46,7 +46,7 @@
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/tuusuario/CineVault.git
+git clone https://github.com/eduardogomez/CineVault.git
 ```
 
 2. Open the project in **Android Studio Giraffe or later**
