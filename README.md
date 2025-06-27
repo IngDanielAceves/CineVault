@@ -57,6 +57,8 @@ git clone https://github.com/IngDanielAceves/CineVault.git
 - Have **Java 11** installed
 - Add your API key if required in `local.properties` or relevant class
 
+ ⚠️ This app requires internet access to fetch movie data from TMDb.
+
 ## 📄 License
 
 This project is for educational and professional portfolio purposes.
