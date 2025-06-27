@@ -1,0 +1,23 @@
+buildscript {
+    ext.kotlin_version = "2.1.21" // ✅ actualizado y consistente
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.11.0' // ✅ estable y moderno
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.21"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.9.0" // ✅ misma versión que en el módulo
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

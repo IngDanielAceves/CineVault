@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://api.themoviedb.org/3/</domain>
+    </domain-config>
