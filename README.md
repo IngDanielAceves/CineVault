@@ -25,6 +25,8 @@
 - **Material Components**
 - **RecyclerView**
 - **ViewBinding**
+- **REST API** consumption using [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)
+
 
 ---
 
